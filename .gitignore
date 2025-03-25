@@ -1,0 +1,28 @@
+# Dependencies
+/reactInit/node_modules/
+
+# Build output
+/reactInit/build/
+# /dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+
+# macOS
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# React Native
+# .expo/
+# .expo-shared/
+
+.parcel-cache
