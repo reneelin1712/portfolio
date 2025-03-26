@@ -2055,126 +2055,192 @@ var _contact = require("./pages/Contact");
 var _contactDefault = parcelHelpers.interopDefault(_contact);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
-                className: "navbar",
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/",
-                        children: "Home"
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/experience",
-                        children: "Experience"
-                    }, void 0, false, {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+            className: "App",
+            children: [
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("nav", {
+                    className: "navbar",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "container",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                                children: "My Portfolio"
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 15,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/",
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 17,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 17,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/experience",
+                                            children: "Experience"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 18,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 18,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/education",
+                                            children: "Education"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 19,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 19,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/projects",
+                                            children: "Projects"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 20,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 20,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                                            to: "/contact",
+                                            children: "Contact"
+                                        }, void 0, false, {
+                                            fileName: "src/App.js",
+                                            lineNumber: 21,
+                                            columnNumber: 19
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/App.js",
+                                        lineNumber: 21,
+                                        columnNumber: 15
+                                    }, undefined)
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/App.js",
+                                lineNumber: 16,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/App.js",
                         lineNumber: 14,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/education",
-                        children: "Education"
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/projects",
-                        children: "Projects"
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
-                        to: "/contact",
-                        children: "Contact"
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 17,
-                        columnNumber: 9
+                        columnNumber: 11
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/App.js",
-                lineNumber: 12,
-                columnNumber: 7
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 20,
-                            columnNumber: 34
-                        }, void 0)
-                    }, void 0, false, {
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "content",
+                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                path: "/",
+                                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _homeDefault.default), {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 28,
+                                    columnNumber: 38
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 28,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                path: "/experience",
+                                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 29,
+                                    columnNumber: 48
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 29,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                path: "/education",
+                                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 30,
+                                    columnNumber: 47
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 30,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                path: "/projects",
+                                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 31,
+                                    columnNumber: 46
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 31,
+                                columnNumber: 13
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                                path: "/contact",
+                                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
+                                    fileName: "src/App.js",
+                                    lineNumber: 32,
+                                    columnNumber: 45
+                                }, void 0)
+                            }, void 0, false, {
+                                fileName: "src/App.js",
+                                lineNumber: 32,
+                                columnNumber: 13
+                            }, undefined)
+                        ]
+                    }, void 0, true, {
                         fileName: "src/App.js",
-                        lineNumber: 20,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/experience",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _experienceDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 21,
-                            columnNumber: 44
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 21,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/education",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _educationDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 22,
-                            columnNumber: 43
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 22,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/projects",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _projectsDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 23,
-                            columnNumber: 42
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 23,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: "/contact",
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
-                            fileName: "src/App.js",
-                            lineNumber: 24,
-                            columnNumber: 41
-                        }, void 0)
-                    }, void 0, false, {
-                        fileName: "src/App.js",
-                        lineNumber: 24,
-                        columnNumber: 9
+                        lineNumber: 27,
+                        columnNumber: 11
                     }, undefined)
-                ]
-            }, void 0, true, {
-                fileName: "src/App.js",
-                lineNumber: 19,
-                columnNumber: 7
-            }, undefined)
-        ]
-    }, void 0, true, {
+                }, void 0, false, {
+                    fileName: "src/App.js",
+                    lineNumber: 26,
+                    columnNumber: 9
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/App.js",
+            lineNumber: 12,
+            columnNumber: 7
+        }, undefined)
+    }, void 0, false, {
         fileName: "src/App.js",
         lineNumber: 11,
         columnNumber: 5
