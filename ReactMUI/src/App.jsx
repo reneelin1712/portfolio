@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Experience from './pages/Experience';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
+import Blog from './pages/Blog';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -103,6 +104,9 @@ function App() {
                   <Button variant="outlined" component={Link} to="/contact">
                     Contact →
                   </Button>
+                  <Button variant="outlined" component={Link} to="/blog">
+                    Blog →
+                  </Button>
                 </Box>
               </Box>
             </Container>
@@ -110,6 +114,7 @@ function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>
     </ThemeProvider>
