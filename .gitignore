@@ -3,7 +3,7 @@
 
 # Build output
 /reactInit/build/
-# /dist/
+/dist/
 
 # Local env files
 .env
